@@ -1,3 +1,51 @@
+body{
+    margin: 0;
+}
 .dib{
     display:inline-block;
+}
+
+header{
+    padding: 25px 5%;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white
+    
+}
+
+#headerIMGdiv{
+    height: 60px;
+}
+
+#headerIMGdiv img{
+    height: inherit;
+}
+
+#headerList{
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+
+.floatRight{
+    float: right;
+}
+#headerLogin{
+    margin-top: 20px;
+}
+
+#signUp{
+    padding: 12px 20px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgb(54, 67, 248);
+    color:white;
+}
+
+#searchBar{
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 255, 0.068);
+    border-color: blue;
+    border-width: 1px;
+    border-style:solid;
 }
