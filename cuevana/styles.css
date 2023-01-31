@@ -1,15 +1,19 @@
 body{
     margin: 0;
+    background-color: #080F28;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .dib{
     display:inline-block;
 }
 
 header{
-    padding: 25px 5%;
+    position: fixed;
+    padding: 18px 8%;
+    width: 100%;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.644);
-    color: white
-    
+    color: white;    
 }
 
 #headerIMGdiv{
@@ -48,4 +52,90 @@ header{
     border-color: blue;
     border-width: 1px;
     border-style:solid;
+}
+
+/*MAIN*/
+
+.banner{
+    width: 100%;
+    height: 85vh;
+    background-image: url('https://www4.cuevana3.ch/static/img/banner/f9.jpg');
+}
+
+#gradient{
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(0deg, rgba(8,15,40,1) 0%, rgba(5,5,60,0.8155637254901961) 41%, rgba(193,223,230,0.07046568627450978) 100%);
+}
+
+.movieContent{
+    position: relative;
+    top: 30%;
+    margin: 0 10%;
+    z-index: 10;
+}
+
+.movieTitle{
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    position: relative;
+}
+
+.movieInfo1{
+    margin: 10px 0;
+    color:white;
+}
+
+.InfoElement{
+    margin: 0 6px;
+}
+
+.movieRating{
+    color: rgb(228, 207, 24);
+    font-weight: bold;
+}
+
+.qualityDiv{
+    background-color: yellow;
+    border-radius: 5px;
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+}
+.movieYearDuration{
+    color: rgb(219, 219, 219);
+    font-weight: bold;
+}
+.qualitySpan{
+    color: black;
+    font-size: 14px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.movieInfoText{
+    color: rgba(117, 179, 230, 0.795);
+    font-size: 17px;
+}
+
+.watchBtn{
+    height: 50px;
+    width: 180px;
+    display: flex;
+    margin: 20px 0;
+    background-color: rgb(30, 101, 255);
+    border-radius: 30px;
+    justify-content: center;
+}
+.watchText{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+    align-items: center;
+    margin-top: 15px;
 }
