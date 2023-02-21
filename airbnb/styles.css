@@ -1,0 +1,50 @@
+
+
+
+/* HEADER */
+header{
+    height: 27.4vh;
+}
+/* FIN HEADER */
+
+/* MAIN */
+main{
+    height: 65.20vh;
+    width: 100%;
+
+    padding: 0 4vw;
+}
+
+main > div{ /* CARD*/
+    display: inline-block;
+    box-sizing: border-box;
+    height: 85%;
+    margin: 1.5vh 2vw;
+
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+/* FOOTER */
+footer{
+    height: 
+}
+/* FIN FOOTER */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 1200px) {
+    main > div{
+        width: 20%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 1400px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
