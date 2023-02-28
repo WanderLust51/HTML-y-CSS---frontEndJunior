@@ -3,8 +3,6 @@ HORIZONTAL = landscape
 
 
 
-
-
 ++Tipicos puntos de interrupcion:
 
 /* Extra small devices (phones, 600px and down) */
@@ -21,3 +19,49 @@ HORIZONTAL = landscape
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
+
+
+
+
+++ - - - - - FLEX DIRECTION - - - - - - -
+display: flex;
+
+flex-direction: "cambia el eje principal de orientacion"
+row = horizonal (por defecto),
+column = vertical,
+row-reverse
+column-reverse
+
+flex-wrap: "por defecto el contenedor padre trata de mantener a sus items en la misma fila"
+nowrap = por defecto
+wrap
+wrap-reverse
+
+justify-content: "alinea los elementos en el eje principal"
+flex-start = por defecto alineados a la izquierda
+flex-end
+center
+space-between = separa a los items equitativamente pero los items de los bordes quedan pegados al borde
+space-around = separa los items equitativamente, pero, los items de los bordes tambien tienen separacion de los bordes
+
+align-items: "alinea los items en el eje transversal"
+flex-start (por defecto)
+flex-end
+center
+space-between
+space-around
+strecht = alarga los items para rellenar el contenido
+
+flex-flow: "atajo que es combinacion de flex-direction y flex-wrap"
+
+align-self: "sobreescribe la propiedad align items y tiene más relevancia"
+
+- - - ITEMS:
+
+"son los hijos de un flex"
+
+order: "propiedad que permite alterar el orden por defecto en el que se muestra dicho item"
+flex-grow: "hace crecer el item multiplicandolo por su valor (por defecto es 0)"
+flex-shrink: "encoge el item multiplicandolo por su valor (por defecto 1)"
+flex-basis: "define el ancho del itemm, a modo igual que la propiedad width"
+
