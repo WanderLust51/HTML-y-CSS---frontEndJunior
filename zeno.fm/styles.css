@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #212124;
+    color: white;
+
+    justify-content: center;
+    
+    height: 78px;
+}
+header > div{
+    display: flex;
+    height: 100%;
+    width: 96%;
+    justify-content: space-between;
+}
+.header-content{
+    /* background-color: rgba(255, 255, 255, 0.048); */
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-content > .container, .header-content > .container-fluid{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-content > .container > span{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+    font-size: 15px;
+}
+.header-content > .container > span:hover{
+    color: rgb(245, 208, 0);
+    transition-duration: 0.3s;
+}
+.header-content > .container > span > ion-icon{
+    font-size: 20px;
+    color: rgb(245, 208, 0);
+}
+.header-content > .container > input{
+    padding: 7px 20px;
+    width: 310px;
+    background-color: #3c3c3d;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.header-content > .download-container{
+    border: white 1px solid;
+    border-radius: 8px;
+    height: 50px;
+    width: 120px;
+    padding: 0 20px;
+}
+
+.header-content ion-icon{
+    color: rgb(245, 208, 0);
+}
