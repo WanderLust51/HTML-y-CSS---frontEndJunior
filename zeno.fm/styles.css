@@ -47,7 +47,7 @@ header > div{
 .header-content > .container > input{
     padding: 7px 20px;
     width: 310px;
-    background-color: #3c3c3d;
+    background-color: #353434;
     border-style: none;
     border-radius: 20px;
     color: white;
@@ -63,4 +63,27 @@ header > div{
 
 .header-content ion-icon{
     color: rgb(245, 208, 0);
+}
+
+/* CUERPO CUERPO CUERPO CUERPO CUERPO */
+
+#banner{
+    height: 570px;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+#banner > .row > div:first-child{
+    background-image: url(https://zeno.fm/wp-content/uploads/2020/11/hero@2x-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner > .row > div:last-child{
+    background-color: #F5AB19;
+}
+
+#search{
+    height: 90px;
+    top: -45px;
 }
