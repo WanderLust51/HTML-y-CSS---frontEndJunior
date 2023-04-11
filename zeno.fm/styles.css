@@ -87,3 +87,26 @@ header > div{
     height: 90px;
     top: -45px;
 }
+#search > input{
+    outline: none;
+    border: 0 !important;
+}
+#brand-list > div{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#brand-list > div > img{
+    transition-duration: 0.3s;
+}
+#brand-list > div > img:hover{
+    filter: opacity(80%);
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+    #brand-list > div{
+        border: 0 !important;
+    }
+}
