@@ -1,0 +1,57 @@
+// COLORES
+
+$color-gris: rgb(119, 119, 119);
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+
+}
+
+header{
+    height: 60px;
+    background-color: aliceblue;
+}
+#logo{
+    text-decoration: none;
+}
+header #logo > svg{
+    height: 68%;
+}
+header > #logo > h3{
+    margin-left: 0.7rem;
+    margin-bottom: 0;
+    font-size: 24px;
+    letter-spacing: -0.8px;
+    color: rgb(97, 97, 97);
+    text-decoration: none !important;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#subHeader{
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+
+    & > *{
+        display: flex;
+        align-items: center;
+        padding: 5px 15px;
+        margin-right: 1rem;
+        border: 1px rgba(163, 163, 163, 0.466) solid;
+        border-radius: 15px;
+        font-size: 13px;
+        font-weight: bold;
+        color: $color-gris;
+
+        & > ion-icon{
+            margin-right: 5px;
+            font-size: 16px;
+        }
+    }
+}
