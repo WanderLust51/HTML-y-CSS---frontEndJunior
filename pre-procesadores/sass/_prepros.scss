@@ -1,6 +1,6 @@
 // COLORES
 
-$color-gris: rgb(119, 119, 119);
+
 
 *{
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -47,7 +47,7 @@ main{
         border-radius: 15px;
         font-size: 13px;
         font-weight: bold;
-        color: $color-gris;
+        color: $gray-color;
 
         & > ion-icon{
             margin-right: 5px;
