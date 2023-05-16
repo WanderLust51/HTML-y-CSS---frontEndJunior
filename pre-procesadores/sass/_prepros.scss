@@ -1,12 +1,16 @@
-// COLORES
-
-
-
-*{
-    font-family: 'Plus Jakarta Sans', sans-serif;
+// CLASES
+.text-normal{
+    font-size: map-get($map: $fontSizes, $key: normal);
 }
-body{
+@each $k, $v in $fontSizes {
+    .text-#{$k}{
+        font-size: $v;
+    }
+}
 
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 header{
