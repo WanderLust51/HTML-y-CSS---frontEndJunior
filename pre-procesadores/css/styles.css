@@ -87,3 +87,7 @@ main {
   margin-right: 5px;
   font-size: 16px;
 }
+
+#normal-text {
+  background-color: #cccccc;
+}
